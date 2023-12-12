@@ -1,0 +1,68 @@
+
+/* Add your CSS styling here */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+}
+
+header, footer {
+    background: #0b85e9;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #0078D7;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+/* Ensure links are visible and distinguishable from regular text */
+a {
+    color: #0078D7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer content */
+footer h2 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+/* For screen readers only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
